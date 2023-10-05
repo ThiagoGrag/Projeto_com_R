@@ -1,6 +1,6 @@
 # Estudo para entender quais as relações entre os dados da Netflix
 # Como o PIB e a Desigualdade Social Influenciam no Crescimento da Netflix?
-# Código para criar os Dashboards
+# Código para criar os Dashboards.
 
 
 
