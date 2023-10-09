@@ -1,12 +1,7 @@
-# Lab - MapReduce Para Análise de Dados com R e MongoDB 
+# MapReduce Para Análise de Dados com R e MongoDB 
 
-# Obs: Caso tenha problemas com a acentuação, consulte este link:
-# https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding
 
-# Configurando o diretório de trabalho
-# Coloque entre aspas o diretório de trabalho que você está usando no seu computador
-# Não use diretórios com espaço no nome
-setwd("C:/FCD/BigDataRAzure/Cap06")
+setwd("~/DataScienceStructure/LinguagemR/Cap06")
 getwd()
 
 # Pacotes
@@ -17,7 +12,7 @@ install.packages("mongolite")
 library(mongolite)
 
 # Help
-?mongolite
+# ?mongolite
 
 # Cria a conexão ao MongoDB
 con <- mongo(collection = "airbnb",
